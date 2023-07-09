@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/apprentice.min.css">
+    <script src="js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <aside class="info-short">
+            <div class="info-wrap">
+                <div class="my-photo">
+                    <img src="assets/img/photo.avif" alt="my photo" class="photo">
+                </div>
+                <article class="contacts">
+                    <h2 class="h2">Contacts</h2>
+                    <div class="underline"></div>
+                    <ul class="list">
+                        <li class="li-undotted">
+                            <div class="list__item">
+                                <div class="list-pic">
+                                    <img src="assets/icons/email.png" alt="email icon" class="list-icon">
+                                </div>
+                                <div class="list-info">egorokunevich@gmail.com</div>
+                            </div>
+                        </li>
+                        <li class="li-undotted">
+                            <div class="list__item">
+                                <div class="list-pic">
+                                    <img src="assets/icons/phone.png" alt="phone icon" class="list-icon">
+                                </div>
+                                <div class="list-info list-phone">+ 375 44 756 13 77</div>
+                            </div>
+                        </li>
+                        <li class="li-undotted">
+                            <div class="list__item">
+                                <div class="list-pic">
+                                    <img src="assets/icons/telegram.png" alt="telegram icon" class="list-icon">
+                                </div>
+                                <div class="list-info">@egorokunevich</div>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </article>
+                <article class="skills">
+                    <h2 class="h2">Skills</h2>
+                    <div class="underline"></div>
+                    <ul class="list">
+                        <li class="li-undotted">
+                            <div class="list__item">
+                                <div class="list-pic">
+                                    <img src="assets/icons/html.png" alt="email icon" class="list-icon">
+                                </div>
+                                <div class="list-info">HTML</div>
+                            </div>
+                        </li>
+                        <li class="li-undotted">
+                            <div class="list__item">
+                                <div class="list-pic">
+                                    <img src="assets/icons/css.png" alt="telegram icon" class="list-icon">
+                                </div>
+                                <div class="list-info">CSS</div>
+                            </div>
+                        </li>
+                        <li class="li-undotted">
+                            <div class="list__item">
+                                <div class="list-pic">
+                                    <img src="assets/icons/github.png" alt="telegram icon" class="list-icon">
+                                </div>
+                                <div class="list-info">GitHub</div>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="info-short__background"></div>
+        </aside>
+        <div class="info-full">
+            <header class="header">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="li-undotted nav-item">
+                            <h3 class="h3">
+                                <a href="#about-me" class="header__link">About me</a>
+                            </h3>
+                        </li>
+                        <li class="li-undotted nav-item">
+                            <h3 class="h3">
+                                <a href="#code-example" class="header__link">Code example</a>
+                            </h3>
+                        </li>
+                        <li class="li-undotted nav-item">
+                            <h3 class="h3">
+                                <a href="#education" class="header__link">Education</a>
+                            </h3>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__name-wrap">
+                    <h1 class="header__name">Yahor Akunevich</h1>
+                </div>
+            </header>
+            <main class="main-container">
+                <article id="about-me">
+                    <h2 class="main__header">About me</h2>
+                    <div class="main__underline"></div>
+                    <p class="main__text">This is not the first time I try to learn programming. There were several
+                        attempts before, and last time I did well in mastering my CSS and HTML skills. Though, i don't
+                        consider my code clean. Now I would like to finish this adventure, and I'll try my best to
+                        complete this course. I believe that programming is such a potential, interesting and motivating
+                        profession. To my opinion it's also very inspiring. </p>
+                    <h2 class="main__h2">Languages</h2>
+                    <ul>
+                        <li class="li-undotted main__text">English — B1</li>
+                        <li class="li-undotted main__text">Russian — native</li>
+                    </ul>
+                </article>
+                <article id="code-example">
+                    <h2 class="main__header">Code example</h2>
+                    <div class="main__underline"></div>
+                    <p class="main__text">This is a piece of code for a slider in JS:</p>
+                    <pre class="pre__code">
+                        <code class="code-snippet">
+function changePosition() {
+    sliderWidth = slider.clientWidth;
+    position = `translateX(-${sliderIndex * sliderWidth}px)`;
+    for (let i = 0; i &lt; slides.length; i++) {
+        slides[i].style.transform = position;
+    }
+}
+                        </code>
+                    </pre>
+                </article>
+
+                <article id="education">
+                    <h2 class="main__header">Education</h2>
+                    <div class="main__underline"></div>
+                    <div class="education__wrap">
+                        <div class="education__item">
+                            <div class="education__university">BNTU</div>
+                            <div class="education__year">2016 - 2021</div>
+                        </div>
+                        <div class="education__divider"></div>
+                        <div class="education__item education-info">
+                            <div class="education__faculty">Faculty of Instrumentation</div>
+                            <div class="education__spec">Specialization: security engineering</div>
+                        </div>
+
+
+                    </div>
+                </article>
+            </main>
+
+
+        </div>
+
+    </div>
+    <footer class="footer wrapper">
+        <div class="footer-item">
+            <a href="https://github.com/egorokunevich/" class="button">
+                <div class="footer__github"></div>
+            </a>
+        </div>
+        <div class="footer-item">
+            <a href="https://rs.school/js/" class="button">
+                <div class="footer__logo"></div>
+            </a>
+        </div>
+        <div class="footer-item">
+            <div class="footer__year">2023</div>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
