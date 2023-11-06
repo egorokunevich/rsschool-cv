@@ -3,15 +3,15 @@
 ## Contacts
 - **Email:** egorokunevich@gmail.com
 - **Telegram:** @egorokunevich
-<img src="https://pbs.twimg.com/profile_images/889974701140914177/fg5DYdBu_400x400.jpg" alt="drawing" width="150" title="SMINEM"/>
+- **Phone:** +375447561377
 
 ## About me
-I've tried to learn HTML and CSS before, but there was a mystery force that interrupted me. Now it's time for me to come back, improve my skills and
-find out many interesting things about programming.
+This is not the first time I try to learn programming. There were several attempts before, and last time I did well in mastering my CSS and HTML skills. Though, i don't consider my code clean. Now I would like to finish this adventure, and I'll try my best to complete this course. I believe that programming is such a potential, interesting and motivating profession. To my opinion it's also very inspiring.
 
 ## Skills
 - HTML
 - CSS
+- JS
 
 ## Code example
 This is a piece of code for a slider in **JS**:
@@ -24,5 +24,8 @@ This is a piece of code for a slider in **JS**:
       }
     }
 </pre>
-                                          
-<img src="https://blog.webix.com/wp-content/uploads/2021/07/2.jpg" alt="HTML meme" width="400" title="yeah i definitely know what html is"/>
+
+## Education
+**BNTU:** 2016 - 2021  
+Faculty of Instrumentation  
+Specialization: security engineering
